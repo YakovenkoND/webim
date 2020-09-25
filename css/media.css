@@ -1,0 +1,110 @@
+
+@media (max-width:1080px){
+  .steps-download{
+    margin-left: 40px;
+  }
+}
+@media (max-width:848px){
+  nav{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+    position: fixed;
+  }
+  .first{
+    margin-top: 50px;
+  }
+  .menu__item{
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width:768px){
+
+}
+@media (max-width:600px){
+  .social{
+    grid-template-columns: repeat(2,1fr); 
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media (max-width:516px){
+  .step-1{
+    margin-right: 40px;
+  }
+
+}
+@media (max-width:576px){
+  .btn-1{
+    margin-bottom: 20px;
+    padding: 15px 35px;
+  }
+  .btn-2{
+    padding: 12px 100px;
+  }
+  .btn-3{
+    padding: 15px 25px;
+  }
+  
+}
+@media (max-width:425px){
+  .footer-col__2,.footer-col__3{
+    display: none;
+  }
+  .list-html__item {
+    margin-bottom: 25px;
+}
+  .social{
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+  .social-link{
+    font-size: 16px;
+  }
+  .img-steps{
+    width: 70px;
+    height: 70px;
+  }
+  .simple-download{
+    padding: 50px 0;
+  }
+  .download{
+    padding: 40px 0;
+  }
+  .html-download{
+    padding: 40px 0;
+  }
+  .app-download{
+    padding: 30px 0;
+  }
+  .after-download{
+    padding: 40px 0;
+  }
+  .social{
+    padding-bottom: 30px;
+  }
+  .subtitle{
+    margin-bottom: 50px;
+  }
+  .btn-1,.btn-2,.btn-3{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

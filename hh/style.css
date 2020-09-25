@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kjiz94');
+  src:  url('fonts/icomoon.eot?kjiz94#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kjiz94') format('truetype'),
+    url('fonts/icomoon.woff?kjiz94') format('woff'),
+    url('fonts/icomoon.svg?kjiz94#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-01:before {
+  content: "\e900";
+  color: #363b66;
+}
+.icon-02:before {
+  content: "\e901";
+  color: #363b66;
+}
+.icon-app .path1:before {
+  content: "\e902";
+  color: rgb(151, 186, 51);
+}
+.icon-app .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-chatbots .path1:before {
+  content: "\e904";
+  color: rgb(106, 172, 206);
+}
+.icon-chatbots .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-email .path1:before {
+  content: "\e906";
+  color: rgb(114, 150, 205);
+}
+.icon-email .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-email .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-email .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-email .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-feedback:before {
+  content: "\e90b";
+  color: #dab81a;
+}
+.icon-msn .path1:before {
+  content: "\e90c";
+  color: rgb(61, 211, 161);
+}
+.icon-msn .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-msn .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-msn .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-sn:before {
+  content: "\e910";
+  color: #3b4269;
+}
+.icon-step_01 .path1:before {
+  content: "\e911";
+  color: rgb(44, 211, 184);
+}
+.icon-step_01 .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step_02 .path1:before {
+  content: "\e913";
+  color: rgb(44, 211, 184);
+}
+.icon-step_02 .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step_03 .path1:before {
+  content: "\e915";
+  color: rgb(44, 211, 184);
+}
+.icon-step_03 .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step_04 .path1:before {
+  content: "\e917";
+  color: rgb(44, 211, 184);
+}
+.icon-step_04 .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step_05 .path1:before {
+  content: "\e919";
+  color: rgb(44, 211, 184);
+}
+.icon-step_05 .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-step_06 .path1:before {
+  content: "\e91b";
+  color: rgb(44, 211, 184);
+}
+.icon-step_06 .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-yad:before {
+  content: "\e91d";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
