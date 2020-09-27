@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Webim</title>
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/source.css">
   <link rel="stylesheet" href="hh/style.css">
@@ -13,39 +14,47 @@
 </head>
 
 <body>
+  <!-- Nav -->
   <nav>
     <div class="wrapper-2">
-      <div class="nav">
-        <ul class="nav-list">
-          <ul class="left-list">
-            <li class="nav-item"><a href="#" class="nav-link">Вход</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Регистрация</a></li>
-          </ul>
-          <ul class="right-list">
-            <li class="nav-item"><a href="#" class="nav-link">Возможности</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Тарифы</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Партнёрам</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Помощь</a></li>
-            <img src="img/logo.png" alt="Logotype" class="logo">
-          </ul>
+      <ul class="nav-list">
+        <ul class="left-list">
+          <li class="nav-item"><a href="#" class="nav-link">Вход</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Регистрация</a></li>
         </ul>
-      </div>
+        <ul class="right-list">
+          <li class="nav-item"><a href="#" class="nav-link">Возможности</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Тарифы</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Партнёрам</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Помощь</a></li>
+          <img src="img/logo.png" alt="Logotype" class="logo">
+        </ul>
+      </ul>
     </div>
   </nav>
+  <!-- /Nav -->
+  <!-- HM -->
   <div class="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />
+    <div class="logo-container">
+      <a href="#top"><img src="img/logo.png" alt="Logotype" class="logo">
+      </a>
+    </div>
     <label class="menu__btn" for="menu__toggle">
       <span></span>
     </label>
 
     <ul class="menu__box">
-      <li><a class="menu__item first" href="#">Главная</a></li>
-      <li><a class="menu__item" href="#">Проекты</a></li>
-      <li><a class="menu__item" href="#">Команда</a></li>
-      <li><a class="menu__item" href="#">Блог</a></li>
-      <li><a class="menu__item" href="#">Контакты</a></li>
+      <li><a class="menu__item first" href="#">Вход</a></li>
+      <li><a class="menu__item" href="#">Регистрация</a></li>
+      <li><a class="menu__item" href="#">Возможности</a></li>
+      <li><a class="menu__item" href="#">Тарифы</a></li>
+      <li><a class="menu__item" href="#">Партнёрам</a></li>
+      <li><a class="menu__item" href="#">Помощь</a></li>
     </ul>
   </div>
+  <!-- /HM -->
+  <!-- Download -->
   <section class="download">
     <div class="wrapper">
       <div class="hero-text">
@@ -56,11 +65,15 @@
           его в течение 7 дней бесплатно.
         </div>
       </div>
-      <button class="btn-1">Попробовать бесплатно</button>
-      <button class="btn-2">Тарифы</button>
+      <div class="container">
+        <button class="btn-1">Попробовать бесплатно</button>
+        <button class="btn-2">Тарифы</button>
+      </div>
 
     </div>
   </section>
+  <!-- /Download -->
+  <!-- simple-downlaod -->
   <section class="simple-download">
     <div class="wrapper">
       <h2 class="title-h2">Простая установка</h2>
@@ -78,6 +91,8 @@
       </div>
     </div>
   </section>
+  <!-- /simple-downlaod -->
+  <!-- html-downlaod -->
   <section class="html-download">
     <div class="wrapper">
       <h2 class="title-h2 title-html">Установка HTML-кода</h2>
@@ -125,6 +140,8 @@
       </ul>
     </div>
   </section>
+  <!-- /html-downlaod -->
+  <!-- app-downlaod -->
   <section class="app-download">
     <div class="wrapper">
       <h2 class="title-h2 title-app">УСТАНОВКА ПРИЛОЖЕНИЯ
@@ -176,7 +193,8 @@
       </ul>
     </div>
   </section>
-
+  <!-- /app-downlaod -->
+  <!-- after-downlaod -->
   <section class="after-download">
     <div class="wrapper">
       <h2 class="title-h2 title-app">ЧТО ВАС ЖДЕТ ПОСЛЕ УСТАНОВКИ</h2>
@@ -223,11 +241,14 @@
           </li>
         </ul>
       </div>
-      <button class="btn-1">Все возможности WEBIM</button>
-      <button class="btn-3">Протестировать бесплатно</button>
+      <div class="container">
+        <button class="btn-1">Все возможности WEBIM</button>
+        <button class="btn-3">Протестировать бесплатно</button>
+      </div>
     </div>
   </section>
-
+  <!-- /after-downlaod -->
+  <!-- faq -->
   <section class="faq">
     <div class="wrapper">
       <p class="integration-slogan">
@@ -267,7 +288,8 @@
       </div>
     </div>
   </section>
-
+  <!--/faq -->
+  <!-- footer -->
   <footer>
     <div class="footer">
       <div class="wrapper-2">
@@ -311,6 +333,7 @@
       </div>
     </div>
   </footer>
+  <!-- footer -->
 </body>
 
 </html>
